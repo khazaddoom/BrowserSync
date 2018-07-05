@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.container {
+    position: absolute;
+    width: 500px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+
+    position: absolute;
+    padding: 10px 50px 10px 50px;
+    border: 2px solid #FFF;
+    top: 10%;
+    left: 20%;
+}
