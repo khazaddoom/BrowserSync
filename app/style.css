@@ -1,21 +1,46 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: grey;
+
+
+ul {
+    list-style: none;
 }
 
-.container {
-    position: absolute;
-    width: 500px;
+.apps {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.header {
+
     height: 100px;
-    margin: 0 auto;
+    border-bottom: 1px solid grey;
+    background-image: url(/app/images/logo.png);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
-.card {
-
-    position: absolute;
-    padding: 10px 50px 10px 50px;
-    border: 2px solid #FFF;
-    top: 10%;
-    left: 20%;
+.header h1 {
+    float: right;
 }
+
+
+.header img {
+
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    height: 100px;
+    width: 450px;
+    margin-bottom: 25px;
+}
+
+.colorTurq {
+    background-color: turquoise;
+}
+
+
+
