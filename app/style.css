@@ -6,3 +6,23 @@ body {
     background-color: rgb(145, 220, 233);
     font-family: 'Courier New', Courier, monospace;
 }
+
+header {
+    
+    background-color: gray;
+}
+
+
+footer {
+    background-color: gray;
+    
+
+}
+
+.main {
+    height: 800px;
+}
+
+.site-logo {
+    width: 80px;
+}
