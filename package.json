@@ -11,7 +11,9 @@
     "gulp-cli": "^2.0.1",
     "gulp-watch": "^5.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-autoprefixer": "^7.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp watch"

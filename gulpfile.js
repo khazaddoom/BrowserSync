@@ -1,6 +1,8 @@
 var gulp = require('gulp'),
 browserSync = require('browser-sync').create(),
-watch = require('gulp-watch');
+watch = require('gulp-watch'),
+autoprefixer = require('gulp-autoprefixer');
+
 
 gulp.task('watch', function() {
 
@@ -12,7 +14,17 @@ gulp.task('watch', function() {
     });
 
     watch(['./app/*.*'], function() {
+
+        vendorPrefix();
         browserSync.reload();
     });
 
 });
+
+function vendorPrefix() {
+    return gulp.src('app/style.css')
+        .pipe(autoprefixer({
+            cascade: false
+        }))
+        .pipe(gulp.dest('app/dist'))
+}
