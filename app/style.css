@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(145, 220, 233);
+    background-color: gray;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -31,4 +31,16 @@ footer {
 
 .site-logo {
     width: 80px;
+}
+
+a {
+    padding: 5px 20px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: black;
+    font-weight: 700;
 }
